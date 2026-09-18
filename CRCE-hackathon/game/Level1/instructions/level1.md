@@ -1,4 +1,6 @@
-# LEVEL 1 — THE MISSING CREDENTIAL
+# ====================================================
+# Level 1 - The Missing Credentials
+# ====================================================
 
 Something important was removed from the backup system.
 
