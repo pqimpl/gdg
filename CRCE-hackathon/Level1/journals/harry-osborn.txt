@@ -1,0 +1,24 @@
+Harry Osborn — Engineering Notes
+--------------------------------
+
+Found an old backup machine while going through some of the
+company's archived equipment.
+
+The credential record is strange.
+
+The digest is represented using hexadecimal characters only.
+
+It is exactly 32 characters long.
+
+That means it represents 128 bits of data.
+
+Dad always hated these old systems. He called their password
+protection "obsolete the day it shipped."
+
+I asked Otto what he thought.
+
+He laughed and wrote something in the margin:
+
+    "128-bit Message Digest"
+
+He refused to explain further.

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+EXPECTED="spider2099"
+
+if [[ $# -ne 1 ]]; then
+    echo "Usage: submit <answer>"
+    exit 1
+fi
+
+ANSWER="$1"
+
+echo
+echo "================================"
+echo "       LEVEL 2 SUBMISSION"
+echo "================================"
+echo
+
+if [[ "$ANSWER" != "$EXPECTED" ]]; then
+    echo "[!] Incorrect answer."
+    echo "[!] Level 2 remains unchanged."
+    exit 1
+fi
+
+echo "[+] Correct answer."
+echo "[+] Level 2 completed."
+echo
+
+echo "[+] Cleaning up Level 2..." 
+
+# Delete everything inside level1, including hidden files.
+find $HOME \
+-mindepth 1 \
+-maxdepth 1 \
+! -name ".bashrc" \
+-exec rm -rf -- {} +
+
+echo 'unalias submit' >> $HOME/.bashrc
+echo 'alias submit=' >> $HOME/.bashrc
+source $HOME/.bashrc
+
+echo "[+] Level 2 files removed."
+
+echo
+echo "[+] Level 3 has been initiated"
+echo "[+] Good Luck."
+echo

@@ -1,0 +1,27 @@
+Aunt May — Personal Notes
+-------------------------
+
+Peter came home late again.
+
+He was complaining about the backup system and how old everything
+was. Apparently the machine still uses one of those ridiculous
+legacy password conventions.
+
+I asked him what that meant.
+
+He said the old credentials were usually made from:
+
+    one lowercase word
+    followed by exactly two digits
+
+He said people were supposed to avoid birthdays, names and anything
+easy to guess.
+
+I told him that sounded like something Otto would have designed.
+
+He disagreed.
+
+He then left to get groceries.
+
+P.S. Peter insists that keeping passwords simple "for old systems"
+does not make them good passwords.

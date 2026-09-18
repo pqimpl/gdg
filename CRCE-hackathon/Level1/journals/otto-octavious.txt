@@ -1,0 +1,23 @@
+Otto Octavius — Research Log
+----------------------------
+
+Legacy systems are fascinating.
+
+One particular authentication mechanism keeps appearing in
+the old laboratory equipment.
+
+The digest size is 128 bits.
+
+The implementation belongs to the family commonly referred to as:
+
+    Message-Digest Algorithm 5
+
+It was never designed to resist modern password cracking.
+
+Given enough candidate plaintexts, recovering the original value
+is a matter of comparing generated digests against the stored one.
+
+An amusingly primitive system.
+
+Still useful for understanding how badly designed authentication
+systems fail.
