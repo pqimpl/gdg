@@ -1,16 +1,21 @@
 # ====================================================
 # Level 2 - The Web Archieve
 # ====================================================
-An old archive utility contains information that was not meant
-to be publicly accessible.
 
-The message is embedded inside the executable itself.
+An old archive utility contains a message that was
+not meant to be found.
 
-Your objective:
+The message is embedded inside the executable.
 
-1. Locate the hidden data.
-2. Determine how it has been encoded.
-3. Recover the original message.
-4. Submit the recovered message.
+Find it.
 
-You may use the Linux tools available on the system.
+You will need to determine:
+
+    - where the data is stored
+    - how the data is arranged
+    - what order it belongs in
+    - how to decode the final result
+
+The executable itself contains everything you need.
+
+Do not modify the file.
